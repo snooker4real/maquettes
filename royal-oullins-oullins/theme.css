@@ -1,0 +1,31 @@
+/* Moderne : blanc, épuré, typographie fine, beaucoup d'air */
+:root {
+  --papier: #ffffff; --papier-fonce: #ececec; --moutarde: #9a8c73; --sauge: #555; --encre: #1a1a1a; --doux: #777;
+  --ardoise: #fafafa; --craie: #1a1a1a; --bois: #1a1a1a;
+  --titre: "Cormorant Garamond", Georgia, serif; --main: "Cormorant Garamond", Georgia, serif; --texte: "Inter", system-ui, sans-serif;
+}
+body { background: #fff; font-size: 16px; }
+h2 { font-weight: 300; letter-spacing: -.01em; color: var(--encre); }
+.main { font-style: italic; font-size: 1.25rem; color: var(--moutarde); }
+section { padding: 120px 0; }
+.vichy { height: 1px; background: var(--papier-fonce); max-width: 1100px; margin: 0 auto; }
+.nav { background: rgba(255,255,255,.92); border-bottom: 0; }
+.btn { border-radius: 0; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; font-size: .8rem; }
+.hero { min-height: 100vh; text-align: center; background: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)), url(img/hero.jpg) center/cover, #1a1a1a; }
+.hero .cta { justify-content: center; }
+.hero h1 { font-weight: 300; letter-spacing: -.02em; }
+.hero h1 .et { font-family: var(--titre); font-style: italic; color: inherit; }
+.kicker { font-family: var(--texte); font-size: .8rem; letter-spacing: .3em; text-transform: uppercase; color: #fff; }
+.tampons li, .tampons li:nth-child(even) { transform: none; border: 0; border-bottom: 1px solid var(--encre); border-radius: 0; color: var(--encre);
+  font: 500 .75rem var(--texte); letter-spacing: .2em; text-transform: uppercase; padding: 4px 0; margin-right: 14px; }
+.polaroid { transform: none; padding: 0; box-shadow: none; }
+.polaroid figcaption { display: none; }
+.galerie { background: #fff; gap: 2px; padding: 0; }
+.ardoise { background: #fafafa; color: var(--encre); border: 0; box-shadow: none; border-radius: 0; }
+.menu h3 { font-family: var(--titre); font-style: italic; color: var(--encre); font-weight: 400; }
+.menu dl div { font: 1rem var(--texte); border-bottom: 1px solid #ececec; }
+.avis figure, .avis figure:nth-child(2) { transform: none; margin-top: 0; box-shadow: none; background: transparent; border-left: 2px solid var(--vin); padding: 4px 0 4px 24px; }
+.carnet { border-top: 0; border-radius: 0; box-shadow: 0 0 0 1px #ececec; }
+.pastilles span { border-radius: 0; }
+.map { border: 0; box-shadow: none; filter: grayscale(.6); }
+footer { background: #111; }
