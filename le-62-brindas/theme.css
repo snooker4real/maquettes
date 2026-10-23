@@ -1,0 +1,29 @@
+/* Bistrot parisien : noir, crème, carrelage damier, carte encadrée */
+:root {
+  --papier: #f7f3ea; --papier-fonce: #e4ddcd; --vin: #1d1d1b; --vin-fonce: #000;
+  --moutarde: #b08d3c; --sauge: #1d1d1b; --encre: #1d1d1b; --doux: #6a645a; --bois: #1d1d1b;
+  --titre: "Playfair Display", Georgia, serif; --main: "Playfair Display", Georgia, serif; --texte: "Inter", system-ui, sans-serif;
+}
+body { background: var(--papier); }
+.main { font-style: italic; font-size: 1.15rem; letter-spacing: .02em; }
+h2 { font-weight: 700; }
+.vichy { height: 28px; background: repeating-conic-gradient(#1d1d1b 0 25%, #f7f3ea 0 50%) 0 0 / 28px 28px; }
+.btn { border-radius: 0; text-transform: uppercase; letter-spacing: .12em; font-size: .85rem; }
+.hero { background: linear-gradient(rgba(0,0,0,.62), rgba(0,0,0,.62)), url(img/hero.jpg) center/cover, #1d1d1b; text-align: center; }
+.hero .cta { justify-content: center; }
+.hero h1 { font-weight: 700; font-style: italic; }
+.hero h1 .et { font-family: var(--titre); }
+.kicker { font-style: italic; font-size: 1.3rem; text-transform: uppercase; letter-spacing: .2em; }
+.tampons li, .tampons li:nth-child(even) { transform: none; border: 1px solid var(--encre); color: var(--encre); border-radius: 0;
+  font: 600 .75rem var(--texte); text-transform: uppercase; letter-spacing: .14em; padding: 8px 14px; }
+.polaroid { transform: none; padding: 10px; border: 1px solid var(--encre); box-shadow: 8px 8px 0 var(--encre); }
+.polaroid figcaption { font-style: italic; font-size: 1rem; }
+.ardoise { background: #fffdf7; color: var(--encre); border: 1px solid var(--encre); outline: 6px double var(--encre); outline-offset: -14px; box-shadow: none; }
+.menu h3 { font-style: italic; color: var(--encre); font-size: 1.6rem; }
+.menu dl div { font: 1rem var(--texte); border-bottom: 1px dotted var(--doux); }
+.craie-note { font-style: italic; font-size: .9rem; }
+.avis figure, .avis figure:nth-child(2) { transform: none; margin-top: 0; border-top: 4px solid var(--encre); box-shadow: none; }
+.carnet { border-radius: 0; border-top-color: var(--encre); box-shadow: 10px 10px 0 var(--papier-fonce); }
+.pastilles span { border-radius: 0; }
+footer { background: #1d1d1b; }
+.nav .logo span { font-style: italic; font-size: 1rem; }
