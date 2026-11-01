@@ -1,0 +1,25 @@
+/* Trattoria : crème, vert basilic, rouge tomate, rayures tricolores */
+:root {
+  --papier: #fbf6ec; --papier-fonce: #efe4cf; --vin: #b8322a; --vin-fonce: #92261f;
+  --moutarde: #2e6b3a; --sauge: #2e6b3a; --encre: #2b2620; --doux: #6e6253; --bois: #2e6b3a; --ardoise: #fffaf0; --craie: #2b2620;
+  --titre: "Abril Fatface", Georgia, serif; --main: "Kalam", cursive; --texte: "Nunito", system-ui, sans-serif;
+}
+.vichy { height: 14px; background: linear-gradient(90deg, #2e6b3a 0 33.3%, #fbf6ec 0 66.6%, #b8322a 0); }
+.btn { border-radius: 999px; }
+.hero { background: linear-gradient(0deg, rgba(30,20,10,.75), rgba(30,20,10,.15) 60%), url(img/hero.jpg) center/cover, #2e6b3a; align-items: flex-end; padding-bottom: 8vh; }
+.hero h1 { font-size: clamp(3.2rem, 10vw, 7rem); }
+.tampons li, .tampons li:nth-child(even) { transform: none; border: 0; border-radius: 999px; background: #2e6b3a; color: #fbf6ec;
+  font: 700 .85rem var(--texte); padding: 6px 16px; }
+.tampons li:nth-child(even) { background: #b8322a; }
+.polaroid { border-radius: 50% 50% 12px 12px; padding: 0; overflow: hidden; transform: none; }
+.polaroid img { aspect-ratio: 3/4; }
+.polaroid figcaption { display: none; }
+.galerie img { border-radius: 14px; }
+.galerie { gap: 12px; padding: 12px; background: var(--papier); }
+.ardoise { border: 3px dashed #2e6b3a; border-radius: 18px; box-shadow: none; background: #fffaf0; }
+.menu h3 { color: #b8322a; }
+.menu dl div { border-bottom: 1px dotted #c9b99a; }
+.avis figure, .avis figure:nth-child(2) { border-radius: 18px; transform: none; margin-top: 0; }
+.carnet { border-radius: 18px; border-top: 10px solid #2e6b3a; }
+footer { background: #2e6b3a; }
+.reseaux a { border-radius: 999px; }

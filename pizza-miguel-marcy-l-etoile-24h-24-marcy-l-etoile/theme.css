@@ -1,0 +1,37 @@
+/* Street food : noir et jaune, typographie condensée, énergie */
+:root {
+  --papier: #fffbe6; --papier-fonce: #f2e9b8; --jaune: #ffcc00; --moutarde: #e0a800; --sauge: #111; --encre: #111; --doux: #555;
+  --ardoise: #111; --craie: #fff; --bois: #111;
+  --titre: "Bebas Neue", Impact, sans-serif; --main: "Bebas Neue", Impact, sans-serif; --texte: "Space Grotesk", system-ui, sans-serif;
+}
+body { background: var(--papier); }
+h2 { font-size: clamp(3rem, 9vw, 4.8rem); color: var(--encre); letter-spacing: .02em; }
+.main { color: var(--vin); font-size: 1.5rem; letter-spacing: .06em; }
+.vichy { height: 26px; background: repeating-linear-gradient(-45deg, #111 0 18px, var(--jaune) 18px 36px); }
+.btn { background: var(--jaune); color: #111; border-color: #111; border-radius: 0; box-shadow: 4px 4px 0 #111; font-weight: 700; text-transform: uppercase; }
+.btn:hover { background: #111; color: var(--jaune); border-color: #111; }
+.btn-ghost { background: transparent; color: #fff; border-color: #fff; box-shadow: none; }
+.btn-ghost-dark { background: #fff; color: #111; }
+.nav { background: var(--jaune); border-bottom: 3px solid #111; }
+.nav .logo, .nav .logo span { color: #111; }
+.hero { background: linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)), url(img/hero.jpg) center/cover, #111; }
+.hero h1 { font-size: clamp(4.5rem, 16vw, 11rem); line-height: .9; }
+.hero h1 .et { font-family: var(--titre); color: var(--jaune); font-size: 1em; }
+.kicker { color: var(--jaune); letter-spacing: .1em; }
+.stars { color: var(--jaune); }
+.tampons li, .tampons li:nth-child(even) { transform: rotate(-2deg); background: var(--jaune); color: #111; border: 2px solid #111;
+  border-radius: 0; font-size: 1.3rem; letter-spacing: .05em; }
+.tampons li:nth-child(even) { transform: rotate(2deg); background: #111; color: var(--jaune); }
+.polaroid { transform: rotate(-2deg); background: #111; box-shadow: 10px 10px 0 var(--jaune); }
+.polaroid figcaption { color: var(--jaune); }
+.galerie { background: #111; }
+.ardoise { border: 4px solid #111; border-radius: 0; box-shadow: 10px 10px 0 var(--jaune); }
+.menu h3 { color: var(--jaune); letter-spacing: .05em; }
+.menu dl div { font: 500 1rem var(--texte); }
+.avis figure, .avis figure:nth-child(2) { transform: none; margin-top: 0; border: 3px solid #111; box-shadow: 6px 6px 0 #111; }
+.reponse span { color: #111; }
+.carnet { border: 3px solid #111; border-top: 10px solid #111; border-radius: 0; box-shadow: 10px 10px 0 var(--jaune); }
+.pastilles input:checked + span { background: #111; border-color: #111; color: var(--jaune); }
+footer { background: #111; }
+footer .main { color: var(--jaune); }
+.call-mobile { background: var(--jaune) !important; color: #111 !important; border: 2px solid #111; }
